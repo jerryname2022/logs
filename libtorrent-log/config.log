@@ -1272,13 +1272,22 @@ In file included from /home/xiaoming/Desktop/Boost-for-Android/openssl-android/a
 /home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include/openssl/sha.h:99:9: note: in expansion of macro 'SHA_LONG64'
          SHA_LONG64 d[SHA_LBLOCK];
          ^
-/tmp/android-9-arm32/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: warning: skipping incompatible /home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libssl.so while searching for ssl
-/tmp/android-9-arm32/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: warning: skipping incompatible /home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libssl.so while searching for ssl
-/tmp/android-9-arm32/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lssl
-/tmp/android-9-arm32/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: warning: skipping incompatible /home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.so while searching for crypto
-/tmp/android-9-arm32/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: warning: skipping incompatible /home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.so while searching for crypto
-/tmp/android-9-arm32/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lcrypto
-conftest.c:34: error: undefined reference to 'SSL_new'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function zlib_stateful_expand_block: error: undefined reference to 'inflate'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function zlib_stateful_compress_block: error: undefined reference to 'deflate'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function zlib_stateful_finish: error: undefined reference to 'inflateEnd'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function zlib_stateful_finish: error: undefined reference to 'deflateEnd'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function zlib_stateful_init: error: undefined reference to 'inflateInit_'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function zlib_stateful_init: error: undefined reference to 'deflateInit_'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_free: error: undefined reference to 'inflateEnd'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_free: error: undefined reference to 'deflateEnd'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_ctrl: error: undefined reference to 'deflate'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_ctrl: error: undefined reference to 'zError'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_write: error: undefined reference to 'deflate'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_write: error: undefined reference to 'zError'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_write: error: undefined reference to 'deflateInit_'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_read: error: undefined reference to 'inflate'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_read: error: undefined reference to 'zError'
+/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/lib/libcrypto.a(c_zlib.o):c_zlib.c:function bio_zlib_read: error: undefined reference to 'inflateInit_'
 collect2: error: ld returned 1 exit status
 configure:18844: $? = 1
 configure: failed program was:
