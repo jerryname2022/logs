@@ -1,0 +1,1070 @@
+Making all in include/libtorrent
+make[1]: Entering directory `/home/xiaoming/Desktop/Boost-for-Android/libtorrent/include/libtorrent'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/xiaoming/Desktop/Boost-for-Android/libtorrent/include/libtorrent'
+Making all in src
+make[1]: Entering directory `/home/xiaoming/Desktop/Boost-for-Android/libtorrent/src'
+depbase=`echo web_connection_base.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT web_connection_base.lo -MD -MP -MF $depbase.Tpo -c -o web_connection_base.lo web_connection_base.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo alert.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT alert.lo -MD -MP -MF $depbase.Tpo -c -o alert.lo alert.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo alert_manager.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT alert_manager.lo -MD -MP -MF $depbase.Tpo -c -o alert_manager.lo alert_manager.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo allocator.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT allocator.lo -MD -MP -MF $depbase.Tpo -c -o allocator.lo allocator.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo announce_entry.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT announce_entry.lo -MD -MP -MF $depbase.Tpo -c -o announce_entry.lo announce_entry.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo assert.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT assert.lo -MD -MP -MF $depbase.Tpo -c -o assert.lo assert.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo bandwidth_limit.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bandwidth_limit.lo -MD -MP -MF $depbase.Tpo -c -o bandwidth_limit.lo bandwidth_limit.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo bandwidth_manager.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bandwidth_manager.lo -MD -MP -MF $depbase.Tpo -c -o bandwidth_manager.lo bandwidth_manager.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bandwidth_manager.lo -MD -MP -MF .deps/bandwidth_manager.Tpo -c bandwidth_manager.cpp  -fPIC -DPIC -o .libs/bandwidth_manager.o
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT alert_manager.lo -MD -MP -MF .deps/alert_manager.Tpo -c alert_manager.cpp  -fPIC -DPIC -o .libs/alert_manager.o
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT announce_entry.lo -MD -MP -MF .deps/announce_entry.Tpo -c announce_entry.cpp  -fPIC -DPIC -o .libs/announce_entry.o
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT web_connection_base.lo -MD -MP -MF .deps/web_connection_base.Tpo -c web_connection_base.cpp  -fPIC -DPIC -o .libs/web_connection_base.o
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT alert.lo -MD -MP -MF .deps/alert.Tpo -c alert.cpp  -fPIC -DPIC -o .libs/alert.o
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bandwidth_limit.lo -MD -MP -MF .deps/bandwidth_limit.Tpo -c bandwidth_limit.cpp  -fPIC -DPIC -o .libs/bandwidth_limit.o
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT allocator.lo -MD -MP -MF .deps/allocator.Tpo -c allocator.cpp  -fPIC -DPIC -o .libs/allocator.o
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT assert.lo -MD -MP -MF .deps/assert.Tpo -c assert.cpp  -fPIC -DPIC -o .libs/assert.o
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT allocator.lo -MD -MP -MF .deps/allocator.Tpo -c allocator.cpp -o allocator.o >/dev/null 2>&1
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT assert.lo -MD -MP -MF .deps/assert.Tpo -c assert.cpp -o assert.o >/dev/null 2>&1
+depbase=`echo bandwidth_queue_entry.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bandwidth_queue_entry.lo -MD -MP -MF $depbase.Tpo -c -o bandwidth_queue_entry.lo bandwidth_queue_entry.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo bdecode.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ../libtool  --tag=CXX   --mode=compile arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" -DPACKAGE_STRING=\"libtorrent-rasterbar\ 1.2.0\" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 -DHAVE_BOOST=/\*\*/ -DHAVE_CXX11=1 -DHAVE_BOOST_SYSTEM=/\*\*/ -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I.  -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include   -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bdecode.lo -MD -MP -MF $depbase.Tpo -c -o bdecode.lo bdecode.cpp &&\
+	mv -f $depbase.Tpo $depbase.Plo
+In file included from ../include/libtorrent/aux_/typed_span.hpp:38:0,
+                 from ../include/libtorrent/sha1_hash.hpp:45,
+                 from ../include/libtorrent/peer_id.hpp:36,
+                 from ../include/libtorrent/peer_connection.hpp:38,
+                 from ../include/libtorrent/web_connection_base.hpp:42,
+                 from web_connection_base.cpp:38:
+../include/libtorrent/units.hpp: In function 'std::string libtorrent::aux::to_string(libtorrent::aux::strong_typedef<U, Tag>)':
+../include/libtorrent/units.hpp:110:11: error: 'to_string' is not a member of 'std'
+  { return std::to_string(static_cast<T>(t)); }
+           ^
+../include/libtorrent/units.hpp:110:11: note: suggested alternative:
+../include/libtorrent/units.hpp:109:14: note:   'libtorrent::aux::to_string'
+  std::string to_string(strong_typedef<T, Tag> const t)
+              ^
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bandwidth_manager.lo -MD -MP -MF .deps/bandwidth_manager.Tpo -c bandwidth_manager.cpp -o bandwidth_manager.o >/dev/null 2>&1
+In file included from ../include/libtorrent/aux_/vector.hpp:39:0,
+                 from ../include/libtorrent/stack_allocator.hpp:39,
+                 from ../include/libtorrent/alert_manager.hpp:39,
+                 from alert_manager.cpp:34:
+../include/libtorrent/units.hpp: In function 'std::string libtorrent::aux::to_string(libtorrent::aux::strong_typedef<U, Tag>)':
+../include/libtorrent/units.hpp:110:11: error: 'to_string' is not a member of 'std'
+  { return std::to_string(static_cast<T>(t)); }
+           ^
+../include/libtorrent/units.hpp:110:11: note: suggested alternative:
+../include/libtorrent/units.hpp:109:14: note:   'libtorrent::aux::to_string'
+  std::string to_string(strong_typedef<T, Tag> const t)
+              ^
+In file included from ../include/libtorrent/error_code.hpp:42:0,
+                 from ../include/libtorrent/announce_entry.hpp:38,
+                 from announce_entry.cpp:34:
+../include/libtorrent/units.hpp: In function 'std::string libtorrent::aux::to_string(libtorrent::aux::strong_typedef<U, Tag>)':
+../include/libtorrent/units.hpp:110:11: error: 'to_string' is not a member of 'std'
+  { return std::to_string(static_cast<T>(t)); }
+           ^
+../include/libtorrent/units.hpp:110:11: note: suggested alternative:
+../include/libtorrent/units.hpp:109:14: note:   'libtorrent::aux::to_string'
+  std::string to_string(strong_typedef<T, Tag> const t)
+              ^
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bandwidth_limit.lo -MD -MP -MF .deps/bandwidth_limit.Tpo -c bandwidth_limit.cpp -o bandwidth_limit.o >/dev/null 2>&1
+In file included from ../include/libtorrent/torrent_handle.hpp:51:0,
+                 from ../include/libtorrent/alert_types.hpp:38,
+                 from ../include/libtorrent/alert_manager.hpp:40,
+                 from alert_manager.cpp:34:
+../include/libtorrent/socket.hpp: In member function 'int libtorrent::no_enobufs::name(const Protocol&) const':
+../include/libtorrent/socket.hpp:228:44: error: 'NETLINK_NO_ENOBUFS' was not declared in this scope
+   int name(Protocol const&) const { return NETLINK_NO_ENOBUFS; }
+                                            ^
+In file included from ../include/libtorrent/peer_connection_interface.hpp:36:0,
+                 from ../include/libtorrent/peer_connection.hpp:57,
+                 from ../include/libtorrent/web_connection_base.hpp:42,
+                 from web_connection_base.cpp:38:
+../include/libtorrent/socket.hpp: In member function 'int libtorrent::no_enobufs::name(const Protocol&) const':
+../include/libtorrent/socket.hpp:228:44: error: 'NETLINK_NO_ENOBUFS' was not declared in this scope
+   int name(Protocol const&) const { return NETLINK_NO_ENOBUFS; }
+                                            ^
+In file included from ../include/libtorrent/announce_entry.hpp:40:0,
+                 from announce_entry.cpp:34:
+../include/libtorrent/socket.hpp: In member function 'int libtorrent::no_enobufs::name(const Protocol&) const':
+../include/libtorrent/socket.hpp:228:44: error: 'NETLINK_NO_ENOBUFS' was not declared in this scope
+   int name(Protocol const&) const { return NETLINK_NO_ENOBUFS; }
+                                            ^
+make[1]: *** [announce_entry.lo] Error 1
+make[1]: *** Waiting for unfinished jobs....
+In file included from ../include/libtorrent/torrent_handle.hpp:51:0,
+                 from ../include/libtorrent/alert_types.hpp:38,
+                 from alert.cpp:39:
+../include/libtorrent/socket.hpp: In member function 'int libtorrent::no_enobufs::name(const Protocol&) const':
+../include/libtorrent/socket.hpp:228:44: error: 'NETLINK_NO_ENOBUFS' was not declared in this scope
+   int name(Protocol const&) const { return NETLINK_NO_ENOBUFS; }
+                                            ^
+In file included from ../include/libtorrent/aux_/typed_span.hpp:38:0,
+                 from ../include/libtorrent/sha1_hash.hpp:45,
+                 from ../include/libtorrent/torrent_handle.hpp:53,
+                 from ../include/libtorrent/alert_types.hpp:38,
+                 from alert.cpp:39:
+../include/libtorrent/units.hpp: In function 'std::string libtorrent::aux::to_string(libtorrent::aux::strong_typedef<U, Tag>)':
+../include/libtorrent/units.hpp:110:11: error: 'to_string' is not a member of 'std'
+  { return std::to_string(static_cast<T>(t)); }
+           ^
+../include/libtorrent/units.hpp:110:11: note: suggested alternative:
+../include/libtorrent/units.hpp:109:14: note:   'libtorrent::aux::to_string'
+  std::string to_string(strong_typedef<T, Tag> const t)
+              ^
+make[1]: *** [alert_manager.lo] Error 1
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bandwidth_queue_entry.lo -MD -MP -MF .deps/bandwidth_queue_entry.Tpo -c bandwidth_queue_entry.cpp  -fPIC -DPIC -o .libs/bandwidth_queue_entry.o
+In file included from ../include/libtorrent/socket_io.hpp:41:0,
+                 from alert.cpp:40:
+../include/libtorrent/bencode.hpp: In function 'void libtorrent::detail::bdecode_recursive(InIt&, InIt, libtorrent::entry&, bool&, int)':
+../include/libtorrent/bencode.hpp:244:21: error: 'strtoll' is not a member of 'std'
+     ret.integer() = std::strtoll(val.c_str(), &end_pointer, 10);
+                     ^
+../include/libtorrent/bencode.hpp:244:21: note: suggested alternative:
+In file included from /tmp/android-9-arm32/include/c++/4.9.x/cstdlib:72:0,
+                 from /home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost/config/platform/linux.hpp:15,
+                 from /home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost/config.hpp:57,
+                 from ../include/libtorrent/config.hpp:40,
+                 from alert.cpp:37:
+/tmp/android-9-arm32/sysroot/usr/include/stdlib.h:65:18: note:   'strtoll'
+ extern long long strtoll(const char *, char **, int);
+                  ^
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bdecode.lo -MD -MP -MF .deps/bdecode.Tpo -c bdecode.cpp  -fPIC -DPIC -o .libs/bdecode.o
+libtool: compile:  arm-linux-androideabi-g++ -std=c++11 -DPACKAGE_NAME=\"libtorrent-rasterbar\" -DPACKAGE_TARNAME=\"libtorrent-rasterbar\" -DPACKAGE_VERSION=\"1.2.0\" "-DPACKAGE_STRING=\"libtorrent-rasterbar 1.2.0\"" -DPACKAGE_BUGREPORT=\"arvid@libtorrent.org\" -DPACKAGE_URL=\"http://www.libtorrent.org\" -DPACKAGE=\"libtorrent-rasterbar\" -DVERSION=\"1.2.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_PTHREAD=1 "-DHAVE_BOOST=/**/" -DHAVE_CXX11=1 "-DHAVE_BOOST_SYSTEM=/**/" -DHAVE_CLOCK_GETTIME=1 -DNDEBUG=1 -DTORRENT_USE_INVARIANT_CHECKS=0 -DTORRENT_USE_OPENSSL=1 -DTORRENT_USE_LIBCRYPTO=1 -DBOOST_ASIO_HAS_STD_CHRONO=1 -DBOOST_EXCEPTION_DISABLE=1 -DBOOST_ASIO_ENABLE_CANCELIO=1 -DTORRENT_BUILDING_SHARED=1 -I. -DTORRENT_BUILDING_LIBRARY -I../include -I../ed25519/src -g0 -Os -I/home/xiaoming/Desktop/Boost-for-Android/openssl-android/armeabi-v7a/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include -I/home/xiaoming/Desktop/torrent/boost/1.65.1/include/boost -ftemplate-depth=512 -Wno-format-zero-length -fvisibility=hidden -fvisibility-inlines-hidden -MT bandwidth_queue_entry.lo -MD -MP -MF .deps/bandwidth_queue_entry.Tpo -c bandwidth_queue_entry.cpp -o bandwidth_queue_entry.o >/dev/null 2>&1
+In file included from ../include/libtorrent/aux_/typed_span.hpp:38:0,
+                 from ../include/libtorrent/aux_/alloca.hpp:36,
+                 from bdecode.cpp:34:
+../include/libtorrent/units.hpp: In function 'std::string libtorrent::aux::to_string(libtorrent::aux::strong_typedef<U, Tag>)':
+../include/libtorrent/units.hpp:110:11: error: 'to_string' is not a member of 'std'
+  { return std::to_string(static_cast<T>(t)); }
+           ^
+../include/libtorrent/units.hpp:110:11: note: suggested alternative:
+../include/libtorrent/units.hpp:109:14: note:   'libtorrent::aux::to_string'
+  std::string to_string(strong_typedef<T, Tag> const t)
+              ^
+bdecode.cpp: In member function 'bool libtorrent::bdecode_node::has_soft_error(libtorrent::span<char>) const':
+bdecode.cpp:314:6: error: 'snprintf' is not a member of 'std'
+      std::snprintf(error.data(), error.size(), "leading zero in integer");
+      ^
+bdecode.cpp:314:6: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from ../include/libtorrent/bdecode.hpp:37,
+                 from bdecode.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+bdecode.cpp:322:6: error: 'snprintf' is not a member of 'std'
+      std::snprintf(error.data(), error.size(), "leading zero in string length");
+      ^
+bdecode.cpp:322:6: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from ../include/libtorrent/bdecode.hpp:37,
+                 from bdecode.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+bdecode.cpp:362:8: error: 'snprintf' is not a member of 'std'
+        std::snprintf(error.data(), error.size(), "unsorted dictionary key");
+        ^
+bdecode.cpp:362:8: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from ../include/libtorrent/bdecode.hpp:37,
+                 from bdecode.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+bdecode.cpp:367:8: error: 'snprintf' is not a member of 'std'
+        std::snprintf(error.data(), error.size(), "duplicate dictionary key");
+        ^
+bdecode.cpp:367:8: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from ../include/libtorrent/bdecode.hpp:37,
+                 from bdecode.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+bdecode.cpp: In function 'void libtorrent::{anonymous}::escape_string(std::string&, const char*, int)':
+bdecode.cpp:1032:5: error: 'snprintf' is not a member of 'std'
+     std::snprintf(tmp, sizeof(tmp), "\\x%02x", std::uint8_t(str[i]));
+     ^
+bdecode.cpp:1032:5: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from ../include/libtorrent/bdecode.hpp:37,
+                 from bdecode.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+bdecode.cpp: In function 'std::string libtorrent::print_entry(const libtorrent::bdecode_node&, bool, int)':
+bdecode.cpp:1095:5: error: 'snprintf' is not a member of 'std'
+     std::snprintf(str, sizeof(str), "%" PRId64, e.int_value());
+     ^
+bdecode.cpp:1095:5: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from ../include/libtorrent/bdecode.hpp:37,
+                 from bdecode.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::read_piece_alert::message() const':
+alert.cpp:190:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(msg, sizeof(msg), "%s: read_piece %u failed: %s"
+    ^
+alert.cpp:190:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp:196:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(msg, sizeof(msg), "%s: read_piece %u successful"
+    ^
+alert.cpp:196:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::file_completed_alert::message() const':
+alert.cpp:213:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), ": file %d finished downloading"
+   ^
+alert.cpp:213:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::file_renamed_alert::message() const':
+alert.cpp:238:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), ": file %d renamed to "
+   ^
+alert.cpp:238:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::file_rename_failed_alert::message() const':
+alert.cpp:258:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), ": failed to rename file %d: "
+   ^
+alert.cpp:258:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::tracker_error_alert::message() const':
+alert.cpp:336:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s %s \"%s\" (%d)"
+   ^
+alert.cpp:336:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::scrape_reply_alert::message() const':
+alert.cpp:378:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s scrape reply: %u %u"
+   ^
+alert.cpp:378:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::tracker_reply_alert::message() const':
+alert.cpp:432:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s received peers: %u"
+   ^
+alert.cpp:432:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_reply_alert::message() const':
+alert.cpp:447:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s received DHT peers: %u"
+   ^
+alert.cpp:447:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::hash_failed_alert::message() const':
+alert.cpp:480:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s hash for piece %u failed"
+   ^
+alert.cpp:480:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::invalid_request_alert::message() const':
+alert.cpp:532:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s peer sent an invalid piece request "
+   ^
+alert.cpp:532:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::piece_finished_alert::message() const':
+alert.cpp:564:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s piece: %u finished downloading"
+   ^
+alert.cpp:564:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::request_dropped_alert::message() const':
+alert.cpp:582:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s peer dropped block ( piece: %u block: %u)"
+   ^
+alert.cpp:582:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::block_timeout_alert::message() const':
+alert.cpp:600:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s peer timed out request ( piece: %u block: %u)"
+   ^
+alert.cpp:600:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::block_finished_alert::message() const':
+alert.cpp:618:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s block finished downloading (piece: %u block: %u)"
+   ^
+alert.cpp:618:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::block_downloading_alert::message() const':
+alert.cpp:639:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s requested block (piece: %u block: %u)"
+   ^
+alert.cpp:639:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::unwanted_block_alert::message() const':
+alert.cpp:657:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s received block not in download queue (piece: %u block: %u)"
+   ^
+alert.cpp:657:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::listen_failed_alert::message() const':
+alert.cpp:980:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "listening on %s (device: %s) failed: [%s] [%s] %s"
+   ^
+alert.cpp:980:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+make[1]: *** [bdecode.lo] Error 1
+alert.cpp: In member function 'virtual std::string libtorrent::listen_succeeded_alert::message() const':
+alert.cpp:1069:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "successfully listening on [%s] %s"
+   ^
+alert.cpp:1069:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::portmap_alert::message() const':
+alert.cpp:1109:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "successfully mapped port using %s. external port: %s/%u"
+   ^
+alert.cpp:1109:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::portmap_log_alert::message() const':
+alert.cpp:1134:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s: %s"
+   ^
+alert.cpp:1134:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::peer_blocked_alert::message() const':
+alert.cpp:1190:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "%s: blocked peer [%s]"
+   ^
+alert.cpp:1190:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_announce_alert::message() const':
+alert.cpp:1207:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "incoming dht announce: %s:%u (%s)"
+   ^
+alert.cpp:1207:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_get_peers_alert::message() const':
+alert.cpp:1220:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "incoming dht get_peers: %s", aux::to_hex(info_hash).c_str());
+   ^
+alert.cpp:1220:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::stats_alert::message() const':
+alert.cpp:1262:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "%s: [%d] %d %d %d %d %d %d"
+   ^
+alert.cpp:1262:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::anonymous_mode_alert::message() const':
+alert.cpp:1301:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "%s: %s: %s"
+   ^
+alert.cpp:1301:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::lsd_peer_alert::message() const':
+alert.cpp:1315:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "%s: received peer from local service discovery"
+   ^
+alert.cpp:1315:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::torrent_error_alert::message() const':
+alert.cpp:1368:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(msg, sizeof(msg), " ERROR: (%d %s) %s"
+    ^
+alert.cpp:1368:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp:1374:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(msg, sizeof(msg), " ERROR: %s", filename());
+    ^
+alert.cpp:1374:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::incoming_connection_alert::message() const':
+alert.cpp:1429:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "incoming connection from %s (%s)"
+   ^
+alert.cpp:1429:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::peer_connect_alert::message() const':
+alert.cpp:1443:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "%s connecting to peer (%s)"
+   ^
+alert.cpp:1443:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::add_torrent_alert::message() const':
+alert.cpp:1469:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(msg, sizeof(msg), "failed to add torrent \"%s\": [%s] %s"
+    ^
+alert.cpp:1469:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp:1475:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(msg, sizeof(msg), "added torrent: %s", torrent_name);
+    ^
+alert.cpp:1475:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::state_update_alert::message() const':
+alert.cpp:1488:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "state updates for %d torrents", int(status.size()));
+   ^
+alert.cpp:1488:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::mmap_cache_alert::message() const':
+alert.cpp:1500:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "mmap cache failed: (%d) %s", error.value()
+   ^
+alert.cpp:1500:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::peer_error_alert::message() const':
+alert.cpp:1579:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(buf, sizeof(buf), "%s peer error [%s] [%s]: %s"
+   ^
+alert.cpp:1579:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::torrent_update_alert::message() const':
+alert.cpp:1597:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), " torrent changed info-hash from: %s to %s"
+   ^
+alert.cpp:1597:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::peer_disconnected_alert::message() const':
+alert.cpp:1622:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(buf, sizeof(buf), "%s disconnecting (%s) [%s] [%s]: %s (reason: %d)"
+   ^
+alert.cpp:1622:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_error_alert::message() const':
+alert.cpp:1645:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "DHT error [%s] (%d) %s"
+   ^
+alert.cpp:1645:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_immutable_item_alert::message() const':
+alert.cpp:1660:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "DHT immutable item %s [ %s ]"
+   ^
+alert.cpp:1660:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_mutable_item_alert::message() const':
+alert.cpp:1681:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "DHT mutable item (key=%s salt=%s seq=%" PRId64 " %s) [ %s ]"
+   ^
+alert.cpp:1681:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_put_alert::message() const':
+alert.cpp:1718:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(msg, sizeof(msg), "DHT put complete (success=%d key=%s sig=%s salt=%s seq=%" PRId64 ")"
+    ^
+alert.cpp:1718:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp:1727:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "DHT put commplete (success=%d hash=%s)"
+   ^
+alert.cpp:1727:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::i2p_alert::message() const':
+alert.cpp:1740:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "i2p_error: [%s] %s"
+   ^
+alert.cpp:1740:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_outgoing_get_peers_alert::message() const':
+alert.cpp:1763:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(obf, sizeof(obf), " [obfuscated: %s]"
+    ^
+alert.cpp:1763:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp:1766:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "outgoing dht get_peers : %s%s -> %s"
+   ^
+alert.cpp:1766:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::session_stats_alert::message() const':
+alert.cpp:1883:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "session stats (%d values): " , int(values.size()));
+   ^
+alert.cpp:1883:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp:1888:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(msg, sizeof(msg), first ? "%" PRId64 : ", %" PRId64, v);
+    ^
+alert.cpp:1888:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_stats_alert::message() const':
+alert.cpp:1911:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(buf, sizeof(buf), "DHT stats: reqs: %d buckets: %d"
+   ^
+alert.cpp:1911:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::incoming_request_alert::message() const':
+alert.cpp:1993:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "%s: incoming request [ piece: %d start: %d length: %d ]"
+   ^
+alert.cpp:1993:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_log_alert::message() const':
+alert.cpp:2023:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(ret, sizeof(ret), "DHT %s: %s", dht_modules[module]
+   ^
+alert.cpp:2023:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_pkt_alert::message() const':
+alert.cpp:2060:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(buf, sizeof(buf), "%s [%s] %s", prefix[direction]
+   ^
+alert.cpp:2060:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_get_peers_reply_alert::message() const':
+alert.cpp:2103:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "incoming dht get_peers reply: %s, peers %d"
+   ^
+alert.cpp:2103:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_direct_response_alert::message() const':
+alert.cpp:2166:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "DHT direct response (address=%s) [ %s ]"
+   ^
+alert.cpp:2166:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::picker_log_alert::message() const':
+alert.cpp:2264:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(buf, sizeof(buf), "(%d,%d) "
+    ^
+alert.cpp:2264:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::session_error_alert::message() const':
+alert.cpp:2283:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(buf, sizeof(buf), "session error: (%d %s) %s"
+    ^
+alert.cpp:2283:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp:2289:4: error: 'snprintf' is not a member of 'std'
+    std::snprintf(buf, sizeof(buf), "session error: %s"
+    ^
+alert.cpp:2289:4: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+alert.cpp: In member function 'virtual std::string libtorrent::dht_live_nodes_alert::message() const':
+alert.cpp:2388:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg), "dht live nodes for id: %s, nodes %d"
+   ^
+alert.cpp:2388:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+make[1]: *** [web_connection_base.lo] Error 1
+alert.cpp: In member function 'virtual std::string libtorrent::dht_sample_infohashes_alert::message() const':
+alert.cpp:2450:3: error: 'snprintf' is not a member of 'std'
+   std::snprintf(msg, sizeof(msg)
+   ^
+alert.cpp:2450:3: note: suggested alternative:
+In file included from /tmp/android-9-arm32/sysroot/usr/include/wchar.h:33:0,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/cwchar:44,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/postypes.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/bits/char_traits.h:40,
+                 from /tmp/android-9-arm32/include/c++/4.9.x/string:40,
+                 from alert.cpp:33:
+/tmp/android-9-arm32/sysroot/usr/include/stdio.h:262:6: note:   'snprintf'
+ int  snprintf(char *, size_t, const char *, ...)
+      ^
+make[1]: *** [alert.lo] Error 1
+make[1]: Leaving directory `/home/xiaoming/Desktop/Boost-for-Android/libtorrent/src'
+make: *** [all-recursive] Error 1
